@@ -14,8 +14,16 @@
   height: 50vh;
   background-color: black;
   margin: 10px;
-  z-index: 2;
+  z-index: 4;
   color: white;
+}
+
+.CardContainer {
+  display: flex;
+  height: 80vh;
+  width: 100vw;
+  background-color: red;
+  z-index: 1;
 }
 
 .Nav {

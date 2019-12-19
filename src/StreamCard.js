@@ -8,7 +8,7 @@ class StreamCard extends React.Component {
     return (
       <div className="StreamCard">
         <h3> Streamin </h3>
-        <h3> {this.props.el} </h3>
+        <h3> {this.props.key} </h3>
       </div>
     );
 

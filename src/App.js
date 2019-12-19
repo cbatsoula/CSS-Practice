@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './Nav.js';
 import StreamCard from './StreamCard';
+import CardContainer from './CardContainer'
 
 class App extends React.Component {
   state = {
@@ -17,10 +18,7 @@ class App extends React.Component {
       <>
       <Nav />
       <div className="App">
-      <StreamCard />
-      {
-        this.GiveThem()
-      }
+        <CardContainer cards={this.state.cards}/>
       </div>
 
       </>
