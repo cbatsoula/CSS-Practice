@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import StreamDetail from './StreamDetail'
 
 class StreamCard extends React.Component {
 
@@ -8,6 +9,7 @@ class StreamCard extends React.Component {
     return (
       <div className="StreamCard">
         <h3> Streamin </h3>
+        <StreamDetail />
       </div>
     );
 
