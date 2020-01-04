@@ -7,8 +7,8 @@ class StreamDetail extends React.Component {
     // console.log("what", this.props)
     return (
       <div className="StreamDetailCard">
-        <p> Stream Title </p>
-        <p> User </p>
+        <p className="StreamTitle"> Stream Title </p>
+        <p className="User"> User </p>
 
       </div>
     );
