@@ -16,7 +16,7 @@
   z-index: 4;
   color: white;
 
-  justify-content: flex-end;
+
 
   border-style: solid;
   border-color: blue;
@@ -30,6 +30,18 @@
   width: 90%;
   margin: 10px;
   padding: 5px;
+  align-self: flex-end;
+
+}
+
+.StreamTitle {
+  display: flex;
+  align-self: flex-start;
+}
+
+.User {
+  display: flex;
+  align-self: flex-end;
 }
 
 .CardContainer {
@@ -38,6 +50,7 @@
   width: 100vw;
   background-color: red;
   z-index: 1;
+
 }
 
 .Nav {
