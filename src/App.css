@@ -58,6 +58,19 @@
   height: 13vh;
   width: 100vw;
   justify-content: space-evenly;
+  background-color: white;
+
+}
+
+.button {
+  color: #48b8ae;
+  display: flex;
+  border: 1px solid grey;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .App-logo {
