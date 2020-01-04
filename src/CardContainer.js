@@ -14,7 +14,6 @@ class CardContainer extends React.Component {
     console.log("cardcontainer", this.props.cards)
     return (
       <div className="CardContainer">
-      <h3> cardContainer </h3>
       {
         this.props.cards.map((item,i) => {return <StreamCard key={item} /> } )
       }
